@@ -3,7 +3,7 @@ Fullstack developer focused on TypeScript, cloud, and agent-based systems. I bui
 
 ### What I work with
 
-- **Languages:** JavaScript, TypeScript
+- **Languages:** JavaScript, TypeScript, Rust
 - **Cloud:** AWS, Azure, Serverless
 - **Infrastructure:** Terraform
 - **Frontend:** Next.js, React

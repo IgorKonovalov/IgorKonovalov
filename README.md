@@ -8,8 +8,11 @@ These days most of my side projects are built with AI coding agents in a plan-dr
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**voxel-engine**](https://github.com/IgorKonovalov/voxel-engine) | Game-agnostic voxel engine: a streaming world of small voxels ray-marched in compute shaders, edited with deterministic ops that report what they changed, queried for collision, acoustics and navigation. A library workspace, not a framework | Rust, wgpu, WGSL |
 | [**Ritmolux**](https://github.com/IgorKonovalov/Ritmolux) | Real-time music visualizer: a standalone app and a foobar2000 component over one Rust core, driven by editable text presets. [Docs & preset gallery](https://igorkonovalov.github.io/Ritmolux/) | Rust, wgpu, C ABI + C++ |
+| [**diablo-2-recompilation**](https://github.com/IgorKonovalov/diablo-2-recompilation) | Reimplementation-grade spec of Diablo II: LoD 1.14d item generation, monster spawning and level generation, reverse-engineered from the binary with evidence-tagged claims. Documentation only, no game data | Ghidra, Python, GDB |
 | [**market-analyzer**](https://github.com/IgorKonovalov/market-analyzer) | Desktop market-analysis workbench you drive by talking to an AI agent: indicators, chart patterns, walk-forward backtests and forecasts as MCP tools, drawn live in a viewer | Python, MCP, Electron |
+| [**piano-tutor**](https://github.com/IgorKonovalov/piano-tutor) | Desktop piano tutor for a MIDI keyboard: shows what you play, scores a piece bar by bar, plays it back through the instrument, generates exercises, and asks an LLM coach what to work on | TypeScript, Electron, React, MIDI |
 | [**personal_expenses_bot**](https://github.com/IgorKonovalov/personal_expenses_bot) | Telegram bot for household expenses across currencies and timezones: exact integer money, receipt QR scanning, bank-statement import, FX rates | TypeScript, grammY, SQLite |
 | [**channel-statistics-bot**](https://github.com/IgorKonovalov/channel-statistics-bot) | Passive Telegram bot that collects channel metrics and serves a web dashboard | TypeScript, Express, SQLite |
 | [**traditional-medicine-notifier-bot**](https://github.com/IgorKonovalov/traditional-medicine-notifier-bot) | Reference bot on Tibetan traditional medicine with scheduled reminders and daily tips | TypeScript, Telegram Bot API |
@@ -21,8 +24,8 @@ These days most of my side projects are built with AI coding agents in a plan-dr
 - **Cloud:** AWS, Azure, Serverless
 - **Infrastructure:** Terraform, Docker, GitHub Actions
 - **Frontend:** Next.js, React, Astro, Electron
-- **Graphics:** wgpu, Canvas, generative art
-- **Integrations:** Telegram Bot API, MCP
+- **Graphics:** wgpu, WGSL compute shaders, Canvas, generative art
+- **Integrations:** Telegram Bot API, MCP, MIDI
 - **AI:** Claude Code, agentic workflows, MCP servers
 
 ### Beyond the code
@@ -34,6 +37,8 @@ Alongside engineering, I bring experience in project and team management, includ
 - Designing systems that stay cheap and boring in production
 - Building Telegram bots as small, focused tools
 - Pushing LLM agents into real workflows — and building the guardrails that keep them honest
+- Real-time graphics — voxels, ray marching, music visualization
+- Reverse engineering old games into specs precise enough to rebuild them
 - Mathematics and creative coding — generative art, visualizations, and the geometry behind them
 
 ### Get in touch
